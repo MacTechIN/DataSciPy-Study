@@ -4,5 +4,7 @@
 #
 import numpy as np 
 salary = np.array([220, 250, 230]) 
+
+#실수형을 곱하기 때문에 실수형으로 변환 
 salary = salary * 2.1 
 print(salary) 

@@ -17,3 +17,7 @@ mat_b = np.array( [[2, 2, 2], [1, 2, 3]])
 
 print(x [ x == 'c' ])
 print(mat_a - mat_b)
+
+
+print(x [ x < 'c' ])
+

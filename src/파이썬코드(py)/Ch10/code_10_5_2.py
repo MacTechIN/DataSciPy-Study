@@ -4,6 +4,9 @@
 #
 import numpy as np 
 
-salary = np.array([220, 250, 230]) 
+salary = np.array([220, 250, 230])
+
+#각 요소별 2를 곱함 (파이썬 리스트로 할경우 ? 복잡한 코드가 추가 되어야한다. while or for loop 이용  )
+
 salary = salary * 2 
 print(salary)

@@ -4,15 +4,36 @@
 #
 import numpy as np 
 
+#2차원배열 list 를 
+
 players = [[170, 76.4], 
            [183, 86.2], 
            [181, 78.5], 
            [176, 80.1]] 
 
+# Array 로
 np_players = np.array(players) 
 
+#%%
+
+#전체
 print('몸무게가 80 이상인 선수 정보')
-print(np_players[ np_players[:, 1] >= 80.0 ])
+
+#
+print(np_players[:, 1] >= 80.0 )
+print("\n")
+print(np_players[ np_players[:, 1] >= 80.0 ])#players[1]
+
+#%%
 
 print('키가 180 이상인 선수 정보')
-print(np_players[ np_players[:, 0] >= 180.0 ])
+
+
+print(np_players[:, 0] >= 180.0 ) #players[0] 에서즈 키 기준 
+print(np_players[ np_players[:, 0] >= 180.0 ]) #players[0] 에서즈 키 기준 
+# 즉 
+#%%
+
+print(np_players[np.array([False, True, True, False])])
+
+#와 같은 이야기 임. 
